@@ -1,0 +1,46 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("c:/Users/bnagel/Desktop/testapprepo/AWSParser/" . "scripts/")
+ ("c:/Users/bnagel/Desktop/testapprepo/" . "AWSParser/")
+ ("c:/Users/bnagel/Desktop/" . "testapprepo/")
+ ("c:/Users/bnagel/" . "Desktop/")
+ ("c:/Users/" . "bnagel/")
+ ("c:/" . "Users/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "c:/"
+ "c:/Users/bnagel/.config/"
+ "c:/Users/bnagel/Desktop/testapprepo/AWSParser/scripts/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ ".flake8"
+ "main.py"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("c:/Users/bnagel/AppData/Roaming/" (22829 41083 0 0) "Yahoo/" "Xilinx/" "winscp.rnd" "Sun/" "Slack/" "Skype/" "Python/" "PwrMgr/" "Pulse Secure/" "Microsoft/" "Media Center Programs/" "Macromedia/" "LSC/" "JetBrains/" "Jedi/" "Intel/" "Identities/" "Google/" "Digilent/" "CoolTerm_Prefs.plist" "Apple Computer/" "Adobe/" ".smex-items" ".matplotlib/" ".emacs.d/" "../" "./")
+
+ ("c:/Users/bnagel/" (22829 41023 0 0) "Xilinx/" "VirtualBox VMs/" "Videos/" "var/" "Vagrantfile" "ubuntu-xenial-16.04-cloudimg-console.log" "third_party_licenses/" "Templates/" "Start Menu/" "share/" "SendTo/" "Searches/" "Saved Games/" "Roaming/" "Recent/" "README.txt" "PrintHood/" "Pictures/" "OneDrive/" "ntuser.ini" "NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000002.regtrans-ms" "NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000001.regtrans-ms" "NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TM.blf" "ntuser.dat.LOG2" "ntuser.dat.LOG1" "NTUSER.DAT" "NetHood/" "neotree/" "My Documents/" "Music/" "Local Settings/" "Links/" "LICENSE.txt" "libexec/" "java_error_in_pycharm.hprof" "Favorites/" "DynamoDBLocal_lib/" "DynamoDBLocal.jar" "Downloads/" "Documents/" "Desktop/" "Cookies/" "Contacts/" "Application Data/" "AppData/" ".VirtualBox/" ".vagrant.d/" ".vagrant/" ".ssh/" ".PyCharmCE2016.3/" ".oracle_jre_usage/" ".matplotlib/" ".idlerc/" ".gnupg/" ".gitconfig" ".emacs~" ".emacs.d/" ".config/" ".bash_profile" ".bash_history" ".bashrc" ".aws/" "../" "./")
+
+ ("c:/Users/bnagel/Desktop/testapprepo/AWSParser/scripts/" (22829 42272 0 0) "__pycache__/" "setup.py" "run.pyc" "run.py" "plotter.pyc" "plotter.py" "parse_config_test.py" "parse_config.pyc" "parse_config.py" "main.py" "file_utility.pyc" "file_utility.py" "../" "./")
+
+ ("c:/Users/bnagel/Desktop/testapprepo/AWSParser/" (22824 35277 0 0) "test_group_config" "scripts/" "sample_config" "requirements.txt" "README.rst" "datalog/" "config.json" ".gitignore" "../" "./")
+
+ ("c:/Users/bnagel/Desktop/testapprepo/" (22820 29829 0 0) "ThermalTest/" "TestRunner/" "setupECDv2/" "RF/" "Relay_Fault_Testing/" "package.json" "keyPadTest/" "kApiScheduler(skeleton)/" "kApiScheduler/" "inputPower/" "index.html" "HealthTest/" "emberSetupScripts/" "ECDv1_Test/" "AWSParser/" "AutoCurrentCalibration_python/" "app.js" "alphaLab/" "ACG_DEMO_ALPHA/" ".idea/" ".gitignore" ".git/" "../" "./")
+
+ ("c:/Users/bnagel/Desktop/" (22820 31407 0 0) "TestAppRepoCopy/" "testapprepo/" "Slack.lnk" "Relay_Fault_Testing/" "Excel 2013.lnk" "desktop.ini" "config" "../" "./")
+
+ ("c:/Users/" (22612 10332 0 0) "SLCUser/" "Public/" "itadmin/" "desktop.ini" "Default User/" "Default/" "bnagel/" "All Users/" "../" "./")
+
+ ("c:/Users/bnagel/AppData/" (22612 10333 0 0) "Roaming/" "LocalLow/" "Local/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
