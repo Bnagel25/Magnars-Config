@@ -2,6 +2,10 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("c:/Users/bnagel/Desktop/testapprepo/AWSParser/datalog/All Sensors/" . "000b57fffe5d428a(sensor)/")
+ ("c:/Users/bnagel/Desktop/testapprepo/AWSParser/datalog/" . "All Sensors/")
+ ("c:/Users/bnagel/AppData/Roaming/" . ".emacs.d/")
+ ("c:/Users/bnagel/AppData/" . "Roaming/")
  ("c:/Users/bnagel/Desktop/testapprepo/AWSParser/" . "scripts/")
  ("c:/Users/bnagel/Desktop/testapprepo/" . "AWSParser/")
  ("c:/Users/bnagel/Desktop/" . "testapprepo/")
@@ -12,30 +16,45 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "c:/Users/bnagel/Desktop/testapprepo/AWSParser/scripts/"
+ "c:/Users/bnagel/Desktop/testapprepo/AWSParser/datalog/All Sensors/000b57fffe5d428a(sensor)/"
+ "c:/Users/bnagel/AppData/Roaming/.emacs.d/"
  "c:/"
  "c:/Users/bnagel/.config/"
- "c:/Users/bnagel/Desktop/testapprepo/AWSParser/scripts/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- ".flake8"
+ "offline_db.py"
+ "offline_db_test.py"
+ "aws.py"
+ ".000b57fffe5d428a-sensor_data.txt"
  "main.py"
+ "init.el"
+ ".flake8"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("c:/Users/bnagel/AppData/Roaming/" (22829 41083 0 0) "Yahoo/" "Xilinx/" "winscp.rnd" "Sun/" "Slack/" "Skype/" "Python/" "PwrMgr/" "Pulse Secure/" "Microsoft/" "Media Center Programs/" "Macromedia/" "LSC/" "JetBrains/" "Jedi/" "Intel/" "Identities/" "Google/" "Digilent/" "CoolTerm_Prefs.plist" "Apple Computer/" "Adobe/" ".smex-items" ".matplotlib/" ".emacs.d/" "../" "./")
+ ("c:/Users/bnagel/Desktop/testapprepo/AWSParser/scripts/" (22832 14724 0 0) "__pycache__/" "tests/" "test.txt" "setup.py" "run.pyc" "run.py" "plotter.pyc" "plotter.py" "parse_config_test.py" "parse_config.pyc" "parse_config.py" "offline_db_test.py" "offline_db.pyc" "offline_db.py" "main.py" "file_utility.pyc" "file_utility.py" "aws.pyc" "aws.py" "#plotter.py#" "../" "./")
 
- ("c:/Users/bnagel/" (22829 41023 0 0) "Xilinx/" "VirtualBox VMs/" "Videos/" "var/" "Vagrantfile" "ubuntu-xenial-16.04-cloudimg-console.log" "third_party_licenses/" "Templates/" "Start Menu/" "share/" "SendTo/" "Searches/" "Saved Games/" "Roaming/" "Recent/" "README.txt" "PrintHood/" "Pictures/" "OneDrive/" "ntuser.ini" "NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000002.regtrans-ms" "NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000001.regtrans-ms" "NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TM.blf" "ntuser.dat.LOG2" "ntuser.dat.LOG1" "NTUSER.DAT" "NetHood/" "neotree/" "My Documents/" "Music/" "Local Settings/" "Links/" "LICENSE.txt" "libexec/" "java_error_in_pycharm.hprof" "Favorites/" "DynamoDBLocal_lib/" "DynamoDBLocal.jar" "Downloads/" "Documents/" "Desktop/" "Cookies/" "Contacts/" "Application Data/" "AppData/" ".VirtualBox/" ".vagrant.d/" ".vagrant/" ".ssh/" ".PyCharmCE2016.3/" ".oracle_jre_usage/" ".matplotlib/" ".idlerc/" ".gnupg/" ".gitconfig" ".emacs~" ".emacs.d/" ".config/" ".bash_profile" ".bash_history" ".bashrc" ".aws/" "../" "./")
+ ("c:/Users/bnagel/AppData/Roaming/" (22832 14543 0 0) "Yahoo/" "Xilinx/" "winscp.rnd" "Sun/" "Slack/" "Skype/" "Python/" "PwrMgr/" "Pulse Secure/" "Microsoft/" "Media Center Programs/" "Macromedia/" "LSC/" "JetBrains/" "Jedi/" "Intel/" "Identities/" "Google/" "Digilent/" "CoolTerm_Prefs.plist" "Apple Computer/" "Adobe/" ".smex-items" ".matplotlib/" ".emacs.d/" "../" "./")
 
- ("c:/Users/bnagel/Desktop/testapprepo/AWSParser/scripts/" (22829 42272 0 0) "__pycache__/" "setup.py" "run.pyc" "run.py" "plotter.pyc" "plotter.py" "parse_config_test.py" "parse_config.pyc" "parse_config.py" "main.py" "file_utility.pyc" "file_utility.py" "../" "./")
+ ("c:/Users/bnagel/AppData/Roaming/.emacs.d/" (22832 14692 0 0) "var/" "users/" "themes/" "snippets/" "site-lisp/" "settings/" "server/" "recentf" "README.md" "project-archetypes/" "init.el" "ido.last" "history" "eshell/" "elpa/" "defuns/" "custom.el" "backups/" "auto-save-list/" "ac-comphist.dat" ".mc-lists.el" ".gitmodules" ".gitignore" ".git/" "#custom.el#" "../" "./")
 
- ("c:/Users/bnagel/Desktop/testapprepo/AWSParser/" (22824 35277 0 0) "test_group_config" "scripts/" "sample_config" "requirements.txt" "README.rst" "datalog/" "config.json" ".gitignore" "../" "./")
+ ("c:/Users/bnagel/Desktop/testapprepo/AWSParser/" (22831 7590 0 0) "test_group_config" "smallconfig.json" "scripts/" "sample_config" "requirements.txt" "README.rst" "datalog/" "config.json" "all_sensors.json" ".gitignore" "../" "./")
+
+ ("c:/Users/bnagel/Desktop/testapprepo/AWSParser/datalog/All Sensors/000b57fffe5d428a(sensor)/" (22830 63500 0 0) ".000b57fffe5d428a-sensor_data.txt" "../" "./")
+
+ ("c:/Users/bnagel/Desktop/testapprepo/AWSParser/datalog/All Sensors/" (22830 63500 0 0) "000b57fffe5d428a(sensor)/" "../" "./")
+
+ ("c:/Users/bnagel/Desktop/testapprepo/AWSParser/datalog/" (22830 63500 0 0) "Wally's Office/" "Paul's Office/" "Jason and Steve's Office/" "Conference Room/" "C-Cabinet/" "All Sensors/" "../" "./")
+
+ ("c:/Users/bnagel/" (22829 44302 0 0) "Xilinx/" "VirtualBox VMs/" "Videos/" "var/" "Vagrantfile" "ubuntu-xenial-16.04-cloudimg-console.log" "third_party_licenses/" "Templates/" "Start Menu/" "share/" "SendTo/" "Searches/" "Saved Games/" "Roaming/" "Recent/" "README.txt" "PrintHood/" "Pictures/" "OneDrive/" "ntuser.ini" "NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000002.regtrans-ms" "NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000001.regtrans-ms" "NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TM.blf" "ntuser.dat.LOG2" "ntuser.dat.LOG1" "NTUSER.DAT" "NetHood/" "neotree/" "My Documents/" "Music/" "Local Settings/" "Links/" "LICENSE.txt" "libexec/" "java_error_in_pycharm.hprof" "Favorites/" "DynamoDBLocal_lib/" "DynamoDBLocal.jar" "Downloads/" "Documents/" "Desktop/" "Cookies/" "Contacts/" "Application Data/" "AppData/" ".VirtualBox/" ".vagrant.d/" ".vagrant/" ".ssh/" ".PyCharmCE2016.3/" ".oracle_jre_usage/" ".matplotlib/" ".idlerc/" ".gnupg/" ".gitconfig" ".emacs~" ".config/" ".bash_profile" ".bash_history" ".bashrc" ".aws/" "../" "./")
+
+ ("c:/Users/bnagel/Desktop/" (22829 45076 0 0) "TestAppRepoCopy/" "testapprepo/" "Slack.lnk" "Relay_Fault_Testing/" "Excel 2013.lnk" "desktop.ini" "config" "../" "./")
 
  ("c:/Users/bnagel/Desktop/testapprepo/" (22820 29829 0 0) "ThermalTest/" "TestRunner/" "setupECDv2/" "RF/" "Relay_Fault_Testing/" "package.json" "keyPadTest/" "kApiScheduler(skeleton)/" "kApiScheduler/" "inputPower/" "index.html" "HealthTest/" "emberSetupScripts/" "ECDv1_Test/" "AWSParser/" "AutoCurrentCalibration_python/" "app.js" "alphaLab/" "ACG_DEMO_ALPHA/" ".idea/" ".gitignore" ".git/" "../" "./")
-
- ("c:/Users/bnagel/Desktop/" (22820 31407 0 0) "TestAppRepoCopy/" "testapprepo/" "Slack.lnk" "Relay_Fault_Testing/" "Excel 2013.lnk" "desktop.ini" "config" "../" "./")
 
  ("c:/Users/" (22612 10332 0 0) "SLCUser/" "Public/" "itadmin/" "desktop.ini" "Default User/" "Default/" "bnagel/" "All Users/" "../" "./")
 

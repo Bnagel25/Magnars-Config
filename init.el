@@ -5,9 +5,22 @@
 ;; just comment it out by adding a semicolon to the start of the line.
 ;; You may delete these explanatory comments.
 (package-initialize)
+(load-library "python")
+
+(autoload 'python-mode "python-mode" "Python Mode." t)
+(add-to-list 'auto-mode-alist '("\\.py\\'" . python-mode))
+(add-to-list 'interpreter-mode-alist '("python" . python-mode))
+
+(setq interpreter-mode-alist
+      (cons '("python" . python-mode)
+            interpreter-mode-alist)
+      python-mode-hook
+      '(lambda () (progn
+                    (set-variable 'py-indent-offset 4)
+                    (set-variable 'indent-tabs-mode nil))))
 (elpy-enable)
-(python-mode)
-(elpy-mode)
+(smartparens-mode)
+
 
 (if (fboundp 'menu-bar-mode) (menu-bar-mode -1))
 (if (fboundp 'tool-bar-mode) (tool-bar-mode -1))
@@ -84,14 +97,11 @@
      f
      flx-ido
      dired-details
-     css-eldoc
      yasnippet
      smartparens
      ido-vertical-mode
      ido-at-point
-     simple-httpd
      guide-key
-     nodejs-repl
      restclient
      highlight-escape-sequences
      whitespace-cleanup-mode
@@ -150,11 +160,8 @@
 ;; Default setup of smartparens
 (require 'smartparens-config)
 (setq sp-autoescape-string-quote nil)
-(--each '(css-mode-hook
-          restclient-mode-hook
-          js-mode-hook
-          java-mode
-          ruby-mode
+(--each '(restclient-mode-hook
+          python-mode
           markdown-mode
           groovy-mode
           scala-mode)

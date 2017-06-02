@@ -1,0 +1,12 @@
+ls
+cd ..
+ls
+cd ,,
+cd ..
+ls
+cd AWSParser/
+ls
+mkdir offline_db
+cd scripts/
+python offline_db.py 
+python offline_db.py 

@@ -10,7 +10,7 @@
  '(ido-use-filename-at-point nil)
  '(package-selected-packages
    (quote
-    (jedi virtualenv elpy neotree string-edit yesql-ghosts prodigy groovy-mode clojure-mode-extra-font-locking dockerfile-mode elisp-slime-nav whitespace-cleanup-mode highlight-escape-sequences restclient nodejs-repl guide-key simple-httpd ido-at-point ido-vertical-mode smartparens yasnippet css-eldoc dired-details flx-ido f flx flycheck-clojure flycheck-pos-tip flycheck fill-column-indicator markdown-mode visual-regexp htmlize gist move-text paredit hydra inflections edn magit)))
+    (column-marker jedi virtualenv elpy neotree string-edit yesql-ghosts prodigy groovy-mode clojure-mode-extra-font-locking dockerfile-mode elisp-slime-nav whitespace-cleanup-mode highlight-escape-sequences restclient nodejs-repl guide-key simple-httpd ido-at-point ido-vertical-mode smartparens yasnippet css-eldoc dired-details flx-ido f flx flycheck-clojure flycheck-pos-tip flycheck fill-column-indicator markdown-mode visual-regexp htmlize gist move-text paredit hydra inflections edn magit)))
  '(safe-local-variable-values
    (quote
     ((eval font-lock-add-keywords nil
@@ -47,7 +47,7 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(js2-error-face ((t nil)) t)
- '(js2-warning-face ((t nil)) t) )
+ '(js2-warning-face ((t nil)) t))
 (add-to-list 'load-path "/Users/bnagel/neotree")
 (require 'neotree)
 (global-set-key [f8] 'neotree-toggle)
