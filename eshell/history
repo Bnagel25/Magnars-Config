@@ -10,3 +10,41 @@ mkdir offline_db
 cd scripts/
 python offline_db.py 
 python offline_db.py 
+ls
+cd ..
+ls
+cd Users/bnagel/dev
+ls
+cd ..
+ls
+cd Desktop/testapprepo/
+ls
+ls -a
+ls -a
+cd Relay_Fault_Testing/
+ls
+cd scripts/
+ls
+python main.py COM40 COM26 COM27 Debug
+python main.py COM40 COM26 COM27 DEBUG
+python main.py COM40 COM26 COM27 DEBUG
+python main.py COM40 COM26 COM27 DEBUG
+ls
+cd bnagel/
+ls
+cd Desktop/
+ls
+relaytest.bat
+relaytest.bat
+cd ..
+cd.. 
+cd ..
+cd ..
+relaytest.bat 
+ls
+cd bnagel/ls
+cd bnagel/
+ls
+cd Desktop/
+ls
+relaytest.bat
